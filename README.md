@@ -92,7 +92,7 @@ A comparison with other models on the MM-IMDb dataset (as reported by Seo et al.
 | EfficientNet (Image-only) | 0.395    | 0.314    |
 | BERT (Text-only)          | 0.645    | 0.587    |
 | MM-GATBT (SOTA)           | 0.685    | 0.645    |
-*(Selected comparison results from the report)*
+
 
 ## How to Run
 1.  Clone the repository:
@@ -115,8 +115,6 @@ Key Python libraries used:
 -   NumPy
 -   Pillow
 -   Requests
-
-(A `requirements.txt` file should ideally be generated and included in the repository: `pip freeze > requirements.txt`)
 
 ## Related Work
 The field of multimodal learning for tasks like genre classification is extensive. Approaches range from simple fusion techniques to complex attention-based models and graph neural networks.
